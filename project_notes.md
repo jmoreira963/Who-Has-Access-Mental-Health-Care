@@ -1,7 +1,7 @@
-## Initial Findings
+## Data Quality Findings
 
-- Dataset contains 40,501 records.
-- Includes county-level mental health provider shortage information.
-- HPSA Score appears to measure shortage severity.
-- Rural Status allows comparison between rural and urban communities.
-- Estimated Underserved Population provides a measure of community impact.
+The original dataset contained 40,501 records.
+
+Approximately 3,822 records were excluded from analysis because they did not contain a valid HPSA Score and represented alternate HPSA categories or administrative records rather than measurable shortage area designations.
+
+The final analytical dataset consisted of 36,679 Mental Health Professional Shortage Area records with valid shortage severity scores.
