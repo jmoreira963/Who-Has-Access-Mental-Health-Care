@@ -1,23 +1,11 @@
-# Who Has Access?
+## Key Questions
 
-## A Data Analysis of Mental Health Care Availability in the United States
+1. Which states have the largest underserved populations affected by mental health provider shortages?
 
-### Project Overview
+2. Which counties experience the most severe mental health provider shortages?
 
-Access to mental health care remains a significant challenge across many communities in the United States. This project analyzes Mental Health Professional Shortage Area (HPSA) data to identify regions facing provider shortages, underserved populations, and potential barriers to accessing care.
+3. Are rural communities more affected by mental health provider shortages than urban communities?
 
-### Business Problem
+4. Which communities face both severe shortages and large underserved populations?
 
-Mental health provider shortages can limit access to essential services, particularly in rural and underserved communities. Understanding where shortages exist can help inform resource allocation and policy decisions aimed at improving access to care.
-
-### Tools
-
-- SQL
-- Excel
-- Tableau
-- GitHub
-
-### Data Sources
-
-- HRSA Mental Health Professional Shortage Area (HPSA) Data
-- Area Health Resources File (AHRF)
+5. What recommendations can help improve access to mental health care?
