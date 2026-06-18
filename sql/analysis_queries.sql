@@ -1,1 +1,4 @@
-
+-- Project: Who Has Access?
+-- A Data Analysis of Mental Health Care Availability in the United States
+-- Dataset: HRSA Mental Health Professional Shortage Area Data
+-- Purpose: Analyze mental health provider shortages, underserved populations, and rural access disparities.
