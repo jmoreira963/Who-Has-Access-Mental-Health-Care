@@ -11,3 +11,12 @@ SELECT
   COUNT(*) AS total_records
 FROM `mental-health-hpsa.mental_health_hpsa.Project-2`
 
+
+SELECT
+  COUNT(*) AS shortage_area_records,
+  ROUND(AVG(`HPSA Score`),2) AS average_hpsa_score,
+  MIN(`HPSA Score`) AS minimum_score,
+  MAX(`HPSA Score`) AS maximum_score,
+  SUM(`HPSA Estimated Underserved Population`) AS total_underserved_population
+  FROM `mental-health-hpsa.mental_health_hpsa.Project-2`
+  WHERE `HPSA Score` IS NOT NULL;
